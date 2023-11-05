@@ -1,0 +1,7 @@
+.skills{
+    display: grid;
+
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 
+                           1fr 1fr 1fr 1fr 1fr 1fr;
+}
