@@ -1,7 +1,12 @@
 .skills{
+    /* margin: 0 auto; */
     padding: 15px;
     background-color: #FD5E0A;
     border-radius: 50px;
+}
+
+.skills ul{
+    padding: 0px;
 }
 
 .skills li{
@@ -19,25 +24,34 @@
 
 #education{
     grid-column: 1/3;
+    grid-row: 1/2;
 }
 
 #course{
     grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+#skillsbubble{
+    /* margin: auto; */
+    
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+#skillstechnical{
+    margin: 0;
+    /* width: 50%; */
 }
 
 #skillstechnical ul{
+    margin: auto;
     display: grid;
     grid-template-columns: auto auto;
 }
 
-/* #skillstechnical h1{
-    grid-column: 1/3;
-} */
-
-
-
 #skillsbubble li{
-    max-width: 150px;
+    /* max-width: auto; */
     margin: 5px;
     padding: 10px;
     text-align: center;
@@ -46,13 +60,13 @@
     background-color: black;
 }
 
-#drivinglicence li{
-    max-width: max-content;
-    border-radius: 50%;
+#languages_drivinglicence{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
-#woup li{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+#drivinglicence li{
+    margin: auto;
+    max-width: 20px;
+    border-radius: 50%;
 }

@@ -3,6 +3,8 @@
 } */
 
 body {
+    margin: 0 auto;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
@@ -10,12 +12,18 @@ body {
 
 .grid-container{
     display: grid;
-    grid-template-columns: 150px auto auto auto auto 150px;
-    padding: 10px;
+    grid-template-columns: 150px auto auto 150px;
+    gap: 20px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    /* outline: 1px solid white; */
 }
   
   .contact {
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
 
     grid-column-start: 2;
     grid-column-end: 4;
@@ -26,6 +34,9 @@ body {
   .name_search {
     outline: 1px solid white;
 
+    display: grid;
+    grid-template-columns: auto auto;
+
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -33,24 +44,22 @@ body {
   }
 
   .skills {
-    outline: 1px solid white;
-
     display: grid;
     grid-template-columns: auto auto;
 
     grid-column-start: 2;
     grid-column-end: 3;
-    grid-row-start: 4;
+    grid-row-start: 3;
     grid-row-end: 5;
   }
 
   .aboutme {
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
 
     grid-column-start: 3;
     grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 
   .workexperience {

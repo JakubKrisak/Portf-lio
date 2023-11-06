@@ -1,8 +1,48 @@
-/* .contact{
+/* .contact_info li{
     display: grid;
-    border: 1px solid white;
-
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 
-                           1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto;
 } */
+
+.contact{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid red;
+}
+
+.contact_info{
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul{
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.contact li{
+    /* outline: 1px solid white; */
+
+    max-width: auto;
+    list-style: none;
+}
+
+#contact_1{
+    grid-column: 1/2;
+
+    text-align: left;
+}
+
+#contact_2{
+    grid-column: 2/3;
+
+    text-align: center;
+}
+
+#contact_3{
+    grid-column: 3/4;
+
+    text-align: right;
+}
