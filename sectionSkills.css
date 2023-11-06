@@ -1,0 +1,58 @@
+.skills{
+    padding: 15px;
+    background-color: #FD5E0A;
+    border-radius: 50px;
+}
+
+.skills li{
+    list-style: none;
+}
+
+.skills h1{
+    color: black;
+    text-align: center;
+}
+
+.skills h2{
+    color: black;
+}
+
+#education{
+    grid-column: 1/3;
+}
+
+#course{
+    grid-column: 1/3;
+}
+
+#skillstechnical ul{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* #skillstechnical h1{
+    grid-column: 1/3;
+} */
+
+
+
+#skillsbubble li{
+    max-width: 150px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#drivinglicence li{
+    max-width: max-content;
+    border-radius: 50%;
+}
+
+#woup li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
