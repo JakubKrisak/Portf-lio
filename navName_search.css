@@ -1,23 +1,32 @@
 .name_search{
     /* margin: 0 auto; */
     padding: 0px;
+    margin: 50px auto;
 }
 
 .name_search h1{
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
+    margin: auto;
+    padding: 0px;
 
+    box-sizing: border-box;
     grid-column: 1/3;
 
-    margin: 0;
-    font-size: 48px;
+    font-size: 63px;
     color: white;
 }
 
+.name_search strong:nth-last-child(1){
+    color: #FDC959;
+}
+
 .name_search h2{
+    margin: auto;
+
     grid-column: 1/3;
 
     background-color: #FDC959;
-    border-radius: 70px;
-    padding: 10px 150px 10px 40px;
+    border-radius: 50px;
+    padding: 20px 260px 20px 40px;
     color: black;
 }

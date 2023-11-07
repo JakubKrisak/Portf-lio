@@ -2,6 +2,10 @@
     outline: 1px solid white;
 } */
 
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 body {
     margin: 0 auto;
 
@@ -12,12 +16,12 @@ body {
 
 .grid-container{
     display: grid;
-    grid-template-columns: 15px auto auto 15px;
+    grid-template-columns: 150px auto auto 150px;
     gap: 20px;
     padding: 0px;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 
     /* outline: 1px solid white; */
 }
@@ -32,7 +36,7 @@ body {
   }
 
   .name_search {
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
 
     display: grid;
     grid-template-columns: auto auto;
@@ -53,6 +57,17 @@ body {
     grid-row-end: 5;
   }
 
+  .img {
+    /* outline: 1px solid white; */
+    max-width: 400px;
+    min-width: 300px;
+
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
   .aboutme {
     /* outline: 1px solid white; */
 
@@ -63,7 +78,7 @@ body {
   }
 
   .workexperience {
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
 
     grid-column-start: 3;
     grid-column-end: 4;

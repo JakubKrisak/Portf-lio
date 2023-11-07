@@ -22,12 +22,18 @@
     grid-template-columns: auto auto;
 }
 
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
 .contact li{
     /* outline: 1px solid white; */
 
     max-width: auto;
     list-style: none;
 }
+
 
 #contact_1{
     grid-column: 1/2;
