@@ -2,6 +2,8 @@
     outline: 1px solid white;
 } */
 
+@media only screen and (max-width: 600px) {
+
 body::-webkit-scrollbar {
     display: none;
   }
@@ -25,7 +27,7 @@ a:hover{
 
 .grid-container{
     display: grid;
-    grid-template-columns: 130px auto auto 130px;
+    grid-template-columns: 10px auto auto 10px;
     gap: 20px;
     padding: 0px;
     margin: 0 auto;
@@ -102,19 +104,4 @@ a:hover{
     grid-row-end: 6;
   }
 
-
-  /* * .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  } */ 
-
-
-/* .grid-container{
-    display: grid;
-
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 
-                           1fr 1fr 1fr 1fr 1fr 1fr;
-} */
+}
