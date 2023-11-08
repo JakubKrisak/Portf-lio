@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+
+/* *{
+    outline: 1px solid white;
+} */
+
+.aboutme{
+    font-size: 16px;
+    
+    padding: 20px;
+
+    /* max-width: 750px; */
+    /* min-width: 300px; */
+}
+
+.iconsOne i{
+    font-size: 30px;
+    padding: 10px 10px 0px 30px;
+}
+
+.iconsOne i:hover{
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+}

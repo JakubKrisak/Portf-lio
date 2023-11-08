@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+
+.skills{
+    /* margin: 0 auto; */
+    /* box-sizing: border-box; */
+    padding: 10px;
+    background-color: #FD5E0A;
+    border-radius: 50px;
+
+    font-size: 0.7rem;
+}
+
+.skills ul{
+    padding: 0px;
+}
+
+.skills li{
+    list-style: none;
+}
+
+.skills h1{
+    color: black;
+    text-align: center;
+}
+
+.skills h2{
+    color: black;
+}
+
+#education{
+    /* margin: auto; */
+    /* box-sizing: border-box; */
+    /* padding: 50px; */
+    /* max-height: 70px; */
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#course{
+    /* margin: auto; */
+    /* box-sizing: border-box; */
+
+    /* max-height: 130px; */
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+#skillsbubble{
+    /* margin: auto; */
+
+    /* max-height: 500px; */
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+#skillstechnical{
+    margin: 0;
+    /* width: 50%; */
+}
+
+#skillstechnical ul{
+    margin: auto;    
+
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+}
+
+#skillsbubble li{
+    /* max-width: auto; */
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    list-style: none;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#languages_drivinglicence{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#drivinglicence li{
+    margin: auto;
+    max-width: 20px;
+    border-radius: 50%;
+}
+
+}
