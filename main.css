@@ -10,13 +10,14 @@ body {
     margin: 0 auto;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
     background-color: black;
     color: white;
 }
 
 .grid-container{
     display: grid;
-    grid-template-columns: 150px auto auto 150px;
+    grid-template-columns: 15px auto auto 150px;
     gap: 20px;
     padding: 0px;
     margin: 0 auto;
