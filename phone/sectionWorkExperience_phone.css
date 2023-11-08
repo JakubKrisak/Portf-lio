@@ -5,8 +5,9 @@
     box-sizing: border-box;
     padding: 20px;
 
-    max-width: 750px;
-    min-width: 300px;
+    font-size: 0.7rem;
+    /* max-width: 750px;
+    min-width: 300px; */
 }
 
 /* .workexperience li{
@@ -22,11 +23,11 @@
 
     display: grid;
     grid-template-columns: auto auto;
-    gap: 15px;
+    gap: 3px;
 }
 
 .workexperience li:nth-child(1) {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     color: #FDC959;
     list-style: none;
 }
