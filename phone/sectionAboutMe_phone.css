@@ -1,4 +1,6 @@
-    /* *{
+@media only screen and (max-width: 600px) {
+
+/* *{
     outline: 1px solid white;
 } */
 
@@ -20,4 +22,6 @@
 .iconsOne i:hover{
     opacity: 0.9;
     font-size: 60px;
+}
+
 }
