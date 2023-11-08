@@ -8,9 +8,9 @@
 .contact{
     margin: 0px;
     padding: 0px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     border-bottom: 1px solid red;
-    font-size: 1.1rem;
+    font-size: 0.5rem;
 }
 
 .contact_info{
