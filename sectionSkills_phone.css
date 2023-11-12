@@ -80,8 +80,13 @@
 }
 
 #languages_drivinglicence{
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+#languages_drivinglicence h1{
+    font-size: 20px;
 }
 
 #drivinglicence li{
