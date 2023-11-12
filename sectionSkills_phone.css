@@ -7,7 +7,18 @@
     background-color: #FD5E0A;
     border-radius: 50px;
 
-    font-size: 0.7rem;
+    font-size: 14px;
+}
+
+.skills h1{
+    font-size: 21px;
+    color: black;
+    text-align: center;
+}
+
+.skills h2{
+    font-size: 16px;
+    color: black;
 }
 
 .skills ul{
@@ -15,23 +26,15 @@
 }
 
 .skills li{
+    font-size: 14px;
     list-style: none;
-}
-
-.skills h1{
-    color: black;
-    text-align: center;
-}
-
-.skills h2{
-    color: black;
 }
 
 #education{
     /* margin: auto; */
     /* box-sizing: border-box; */
     /* padding: 50px; */
-    max-height: 120px;
+    max-height: 130px;
     grid-column: 1/4;
     grid-row: 1/2;
 }
@@ -40,7 +43,7 @@
     /* margin: auto; */
     /* box-sizing: border-box; */
 
-    max-height: 170px;
+    max-height: 190px;
     grid-column: 1/4;
     grid-row: 2/3;
 }
@@ -67,11 +70,10 @@
 }
 
 #skillsbubble li{
-    /* max-width: auto; */
     margin: 0px;
     padding: 5px;
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     list-style: none;
     border-radius: 50px;
     background-color: black;

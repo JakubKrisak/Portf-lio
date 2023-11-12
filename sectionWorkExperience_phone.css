@@ -5,7 +5,7 @@
     box-sizing: border-box;
     padding: 20px;
 
-    font-size: 12px;
+    font-size: 14px;
     /* max-width: 750px;
     min-width: 300px; */
 }
@@ -15,6 +15,7 @@
 } */
 
 .workexperience h1{
+    font-size: 24px;
     margin-top: 0;
 }
 
