@@ -43,7 +43,7 @@
     /* margin: auto; */
     /* box-sizing: border-box; */
 
-    max-height: 190px;
+    max-height: 220px;
     grid-column: 1/4;
     grid-row: 2/3;
 }

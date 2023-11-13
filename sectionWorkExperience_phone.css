@@ -2,6 +2,7 @@
 
 .workexperience{
     /* border: 1px solid white; */
+    margin-bottom: 30px;
     box-sizing: border-box;
     padding: 20px;
 
@@ -37,9 +38,5 @@
     text-align: right;
     list-style: none;
 }
-
-/* .workexperience li:nth-child(3) {
-    text-align: right;
-} */
 
 }
